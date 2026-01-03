@@ -13,7 +13,7 @@ const rest = new REST({ version: "10" }).setToken(process.env.TOKEN);
     console.log("🔁 Registering slash commands...");
 
     await rest.put(
-      Routes.applicationCommands("DEINE_CLIENT_ID_HIER"),
+      Routes.applicationCommands("1457057664692650056"),
       { body: commands }
     );
 
